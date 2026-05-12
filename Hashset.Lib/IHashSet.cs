@@ -63,7 +63,7 @@ public class HashSet<T> : IHashSet<T> where T : SPSStudent, IEquatable<T>
 
         public void Rebalance()
         {
-            _items.Clear();
+            throw new NotImplementedException();
         }
     }
 
